@@ -12,18 +12,18 @@ The system comprises of three mode detection.
 ## Working
 
 This is how it works:  
-while the driver is driving the vehicle, the facial expressions are taken in consideration.  
-If the driver is in active state the system will detect as an active state.  
-If the driver is tired for feeling drowsy it will be detected as a drowsy state.  
-If the driver gets into sleep it will be detected as a sleeping state.  
+1. While the driver is driving the vehicle, the facial expressions are taken in consideration.  
+2. If the driver is in active state the system will detect as an active state.  
+3. If the driver is tired for feeling drowsy it will be detected as a drowsy state.  
+4. If the driver gets into sleep it will be detected as a sleeping state.  
 
 
 
     
 ## Dependencies
-dlib  
-cv2  
-numpy  
+* `dlib`
+* `cv2`  
+* `numpy`  
 
 
   
